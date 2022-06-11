@@ -1,0 +1,58 @@
+*{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+body{
+	background-color: #071f1e;
+}
+
+h1{
+	text-align: center;
+	color: #b3cde0;
+	font-size: 100px;
+	animation: grad 30s infinite;
+}
+
+@keyframes grad{
+	0% {color: #b3cde0;}
+	25% {color: #4548ff}
+	50% {color: #a245ff}
+	75% {color: #4548ff}
+	100% {color: #b3cde0;}
+}
+
+input[type=date] {
+	font-size: 80px;
+	text-align: center;
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+	background-color: #10302f;
+	color: #ddd;
+	transition: 0.5s;
+	margin-bottom: 4rem;}
+
+input:hover{
+	background-color: #225251;
+}
+
+button[type=button] {
+	font-size: 50px;
+	height: 90px;
+	width: 100%;
+	float: center;
+	border: 0;
+	background: #163635;
+	color: #ddd;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover{
+	background: #225251;
+}
